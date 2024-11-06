@@ -1,0 +1,30 @@
+:root {
+    --color-primary:#184e77;
+    --color-primary-hover: #52b69a;
+    --color-primary-dark: #168aad;
+
+    --color-text: #FFF0F3;
+    --color-background: #030122;
+}
+
+body {
+    background: var(--color-background);
+    color: var(--color-text);
+    font-family: Ubuntu;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.info {
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.header-logo {
+    height: 150px;
+}
