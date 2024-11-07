@@ -7,4 +7,20 @@
         é um cálculo simples que permite medir se alguém está ou não com o peso ideal.<br />
 
     </div>
+
+    <form action="/" method="post">
+        <label for="nome">Digite seu nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br />
+        <label for="peso">Digite seu peso (kg):</label>
+        <input type="number" id="peso" name="peso" required>
+        <br />
+        <label for="altura">Digite sua altura (cm):</label>
+        <input type="number" id="altura" name="altura" required>
+        <br />
+        <button type="submit">Calcular IMC</button>
+        </form>
+        <div type="results" id="results"></div>
+    </div>
+
 {% endblock %}

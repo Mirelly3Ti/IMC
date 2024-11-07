@@ -28,3 +28,9 @@ body {
 .header-logo {
     height: 150px;
 }
+
+.form-button {
+    background-color: var(--bgnd-button);
+    font-size: 2rem;
+}
+
